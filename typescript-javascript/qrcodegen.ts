@@ -157,7 +157,7 @@
 		
 		// The modules of this QR Code (false = light, true = dark).
 		// Immutable after constructor finishes. Accessed through getModule().
-		private readonly modules   : Array<Array<boolean>> = [];
+		public readonly modules   : Array<Array<boolean>> = [];
 		
 		// Indicates function modules that are not subjected to masking. Discarded when constructor finishes.
 		private readonly isFunction: Array<Array<boolean>> = [];
